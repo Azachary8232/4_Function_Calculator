@@ -4,6 +4,7 @@ var displayDiv = document.querySelector("#display");
 
 var countNum = 0;
 var countString = "";
+var total;
 
 
 function press(num){
@@ -16,5 +17,8 @@ function press(num){
 
 
 function setOP(operator){
-    
+    total = countNum + operator;
+    console.log(total);
+    countString = 0;
+    displayDiv.innerText = countString;
 }
