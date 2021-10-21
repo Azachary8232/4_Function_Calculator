@@ -1,9 +1,45 @@
 
 
 #calculator{
-    width: 200px;
+    width: 300px;
     min-height: fit-content;
     background-color: black;
     margin: auto;
     padding: 15px;
+}
+
+.btn{
+    border-radius: 50%;
+    background-color: dimgray;
+    width: 50px;
+    height: 50px;
+    color: white;
+    margin: 5px;
+    border-color: black;
+    font-size: 16pt;
+}
+
+#display{
+    color: white;
+    margin: 5px;
+}
+
+.btn2{
+    border-radius: 50%;
+    background-color: goldenrod;
+    width: 50px;
+    height: 50px;
+    color: white;
+    margin: 5px;
+    border-color: black;
+    font-size: 20pt;
+}
+
+#equals{
+    height: 50px;
+    width: 250px;
+    border-radius: 50px;
+    margin: 10px 5px 10px 5px;
+    font-size: 20px;
+    font-weight: bold;
 }
