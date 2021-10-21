@@ -1,11 +1,13 @@
 
 
+
 #calculator{
-    width: 300px;
+    width: 260px;
     min-height: fit-content;
     background-color: black;
     margin: auto;
     padding: 15px;
+    margin-top: 50px;
 }
 
 .btn{
@@ -20,11 +22,17 @@
 }
 
 #display{
+    width: fit-content;
     color: white;
-    margin: 5px;
+    text-align: right;
+    height: 50px;
+    font-size: 28pt;
+    float: right;
+    margin-left: 200px;
+    margin-right: 10px;
 }
 
-.btn2{
+.operator{
     border-radius: 50%;
     background-color: goldenrod;
     width: 50px;
@@ -42,4 +50,5 @@
     margin: 10px 5px 10px 5px;
     font-size: 20px;
     font-weight: bold;
+    border: none;
 }
