@@ -1,0 +1,9 @@
+
+
+#calculator{
+    width: 200px;
+    min-height: fit-content;
+    background-color: black;
+    margin: auto;
+    padding: 15px;
+}
