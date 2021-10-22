@@ -79,11 +79,15 @@ function calculate(){
     if( symbol === "+"){
         total = countNum2 + countNum;
         console.log(total);
+        total = Math.round(total * 100) / 100;
+        console.log(total);
         displayDiv.innerText = total;
     }
 
     if( symbol === "-"){
         total = countNum2 - countNum;
+        console.log(total);
+        total = Math.round(total * 100) / 100;
         console.log(total);
         displayDiv.innerText = total;
     }
@@ -91,11 +95,15 @@ function calculate(){
     if( symbol === "/"){
         total = countNum2 / countNum;
         console.log(total);
+        total = Math.round(total * 100) / 100;
+        console.log(total);
         displayDiv.innerText = total;
     }
 
     if( symbol === "*"){
         total = countNum2 * countNum;
+        console.log(total);
+        total = Math.round(total * 100) / 100;
         console.log(total);
         displayDiv.innerText = total;
     }
